@@ -1,0 +1,2413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1080122048088332}
+  m_IsPrefabParent: 1
+--- !u!1 &1080122048088332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4582751234153468}
+  - component: {fileID: 114207680577936944}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4582751234153468
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080122048088332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114207680577936944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080122048088332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75561e1fafda78e429295daea2d8bdb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  datum:
+  - alternativeId:
+    - 16-0-122959835
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "Haloo Helsinki! laittoi pyroshown pystyyn ja veti satumaisen hienon keikan
+        Ruisrockin Rantalavalla. T\xE4ss\xE4 koosteessa keikan helmi\xE4: Beibi, Oh
+        No Let's Go, Rakas, Pulp Fiction ja Hulluuden Highway."
+    duration: PT27M24S
+    id: 1-4181528
+    image:
+      available: 1
+      id: 13-1-4181528
+      type: ImageObject
+    itemTitle:
+      fi: Haloo Helsinki!
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: "Ykk\xF6sfestarin kaikki parhaat keikat Ylell\xE4!"
+      coverImage:
+        available: 1
+        id: 13-1-3783514-cover
+        type: ImageObject
+      description:
+        fi: "Haloo Helsinki!, Teflon Brothers, Galantis, Alma, Reino Nordin ja Pete
+          Parkkonen sek\xE4 vuoden 2016 Ruisrockin keikkoja."
+      id: 1-3783514
+      image:
+        available: 1
+        id: 13-1-3783514
+        type: ImageObject
+      interactions: []
+      subject:
+      - broader:
+          id: 
+        id: 21-13
+        inScheme: finnpanel-genre-classification
+        key: 
+        title:
+          fi: Muut ohjelmat
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-1-7
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Musiikki
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-7.1
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: Konsertti (taltiointi tai juonnettu)
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-7.52
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Pop / rock
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-143
+        inScheme: areena-content-classification
+        key: musiikki
+        title:
+          fi: Musiikki
+          sv: Music
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-144
+        inScheme: areena-content-classification
+        key: poprockjazz
+        title:
+          fi: Pop, rock & jazz
+          sv: Pop, rock & jazz
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-147
+        inScheme: areena-content-classification
+        key: konsertitjatapahtumat
+        title:
+          fi: Konsertit ja tapahtumat
+          sv: Konserter och evenemang
+        type: Concept
+      - broader:
+          id: 
+        id: 5-263
+        inScheme: areena-analytics-classification
+        key: kulttuuri
+        title:
+          fi: Kulttuuri
+          sv: 
+        type: Concept
+      title:
+        fi: Ruisrock
+      type: TVSeries
+    publicationEvent:
+    - duration: 
+      id: 4-7144402
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-0
+          type: ContentProtectionPolicy
+        downloadable: 0
+        duration: PT27M24S
+        id: 6-3f05b1fc36014e478ab79ce12e819c2f
+        type: VideoObject
+      region: World
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher:
+      - id: yle-areena
+    subject:
+    - broader:
+        id: 
+      id: 31-1-7
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Musiikki
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-2-7.6
+      inScheme: yle-content-format-classification
+      key: 
+      title:
+        fi: Muu musiikkiohjelma
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-7.55
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Muut
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-139
+      id: 5-143
+      inScheme: areena-content-classification
+      key: musiikki
+      title:
+        fi: Musiikki
+        sv: Music
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-263
+      inScheme: areena-analytics-classification
+      key: kulttuuri
+      title:
+        fi: Kulttuuri
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: 'Ruisrock: Haloo Helsinki!'
+    type: TVProgram
+    typeCreative: Program
+    typeMedia: TVContent
+  - alternativeId:
+    - 16-0-122959862
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "Haloo Helsinki! p\xE4\xE4tti Ruisrock-keikan n\xE4ytt\xE4v\xE4sti uuden
+        albuminsa nimikkobiisill\xE4."
+    duration: 
+    id: 1-4181597
+    image:
+      available: 1
+      id: 13-1-4181597
+      type: ImageObject
+    itemTitle:
+      fi: 'Haloo Helsinki!: Hulluuden Highway'
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: "Ykk\xF6sfestarin kaikki parhaat keikat Ylell\xE4!"
+      coverImage:
+        available: 1
+        id: 13-1-3783514-cover
+        type: ImageObject
+      description:
+        fi: "Haloo Helsinki!, Teflon Brothers, Galantis, Alma, Reino Nordin ja Pete
+          Parkkonen sek\xE4 vuoden 2016 Ruisrockin keikkoja."
+      id: 1-3783514
+      image:
+        available: 1
+        id: 13-1-3783514
+        type: ImageObject
+      interactions: []
+      subject:
+      - broader:
+          id: 
+        id: 21-13
+        inScheme: finnpanel-genre-classification
+        key: 
+        title:
+          fi: Muut ohjelmat
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-1-7
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Musiikki
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-7.1
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: Konsertti (taltiointi tai juonnettu)
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-7.52
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Pop / rock
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-143
+        inScheme: areena-content-classification
+        key: musiikki
+        title:
+          fi: Musiikki
+          sv: Music
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-144
+        inScheme: areena-content-classification
+        key: poprockjazz
+        title:
+          fi: Pop, rock & jazz
+          sv: Pop, rock & jazz
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-147
+        inScheme: areena-content-classification
+        key: konsertitjatapahtumat
+        title:
+          fi: Konsertit ja tapahtumat
+          sv: Konserter och evenemang
+        type: Concept
+      - broader:
+          id: 
+        id: 5-263
+        inScheme: areena-analytics-classification
+        key: kulttuuri
+        title:
+          fi: Kulttuuri
+          sv: 
+        type: Concept
+      title:
+        fi: Ruisrock
+      type: TVSeries
+    publicationEvent:
+    - duration: 
+      id: 4-7144701
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-areena
+      temporalStatus: in-future
+      type: OnDemandPublication
+      publisher:
+      - id: yle-areena
+    subject:
+    - broader:
+        id: 
+      id: 31-1-7
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Musiikki
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-2-7.6
+      inScheme: yle-content-format-classification
+      key: 
+      title:
+        fi: Muu musiikkiohjelma
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-7.55
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Muut
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-139
+      id: 5-143
+      inScheme: areena-content-classification
+      key: musiikki
+      title:
+        fi: Musiikki
+        sv: Music
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-263
+      inScheme: areena-analytics-classification
+      key: kulttuuri
+      title:
+        fi: Kulttuuri
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: 'Ruisrock: Haloo Helsinki!: Hulluuden Highway'
+    type: TVClip
+    typeCreative: Clip
+    typeMedia: TVContent
+  - alternativeId: []
+    audio: []
+    collection: main
+    contentRating: {}
+    description:
+      fi: "T\xE4n\xE4\xE4n iltap\xE4iv\xE4ll\xE4. Nainen presidenttin\xE4. Naapurimaiden
+        kommentit presidentinvaalituloksesta. Kommentteja presidentinvaalituloksesta
+        (2000). Naisten tunti. Vastavalitun presidentin Tarja Halosen haastattelu
+        (2000). Kohtaamisia kes\xE4ss\xE4. Tasavallan presidentti Tarja Halosen haastattelu
+        (2000). Vallan vaiheilla. Tasavallan presidentti Tarja Halonen kuuntelijoiden
+        tentattavana (2004).\r\n"
+    duration: PT2H
+    id: 1-2621333
+    image:
+      available: 0
+      id: 
+      type: 
+    itemTitle:
+      fi: "Arkisto: Tarja Halonen - maamme ensimm\xE4inen naispresidentti"
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 0
+        id: 
+        type: 
+      description:
+        fi: 
+      id: 
+      image:
+        available: 0
+        id: 
+        type: 
+      interactions: []
+      subject: []
+      title:
+        fi: 
+      type: 
+    publicationEvent:
+    - duration: PT2H
+      id: 4-7120375
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-6906758
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-6527600
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-6193694
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-5818466
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-5536912
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-5229570
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-4988664
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-4735120
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H1S
+      id: 4-4516188
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-4322700
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-4180860
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT2H
+      id: 4-4078129
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-puhe
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 21-5
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Urheilu
+        sv: 
+        en: Sports
+      type: Concept
+      notation:
+      - value: 4
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-4
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Asia
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-4.64
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Historia
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-200
+      id: 5-218
+      inScheme: areena-content-classification
+      key: faktajakulttuuri
+      title:
+        fi: Fakta ja Kulttuuri
+        sv: Fakta och kultur
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-218
+      id: 5-222
+      inScheme: areena-content-classification
+      key: historia
+      title:
+        fi: Historia
+        sv: Historia
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-267
+      inScheme: areena-analytics-classification
+      key: urheilu
+      title:
+        fi: Urheilu
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: "Arkisto: Tarja Halonen - maamme ensimm\xE4inen naispresidentti"
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  - alternativeId:
+    - 16-1-0789905
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "Rissalan lento-onnettomuus 1978 vaati viisitoista uhria, joukossa useita
+        politiikan ja talousel\xE4m\xE4n vaikuttajia. My\xF6s presidentti Tarja Halosta
+        odotettiin mukaan kohtalokkaalle lennolle, mutta raskaus esti l\xE4htemisen."
+    duration: PT27M26S
+    id: 1-2068073
+    image:
+      available: 1
+      id: 13-1-2068073
+      type: ImageObject
+    itemTitle:
+      fi: Uutinen Rissalasta
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 1
+        id: 13-1-2737691-cover
+        type: ImageObject
+      description:
+        fi: "TV1:n historiasarja Muisti palaa kymmenell\xE4 dokumentilla kylm\xE4n
+          sodan aikaisiin vuosiin, jolloin Kekkonen oli vallassa ja naapurimaan Neuvostoliiton
+          vaikutus tuntui meill\xE4 v\xE4h\xE4n kaikessa talouspolitiikasta j\xE4\xE4kiekkoon.
+          Muisti-sarjan my\xF6t\xE4 historian ympyr\xE4 my\xF6s sulkeutuu, sill\xE4
+          monessa n\xE4ist\xE4 tarinoista on nykyhetkest\xE4 tuttuja tunnelmia."
+      id: 1-2975241
+      image:
+        available: 1
+        id: 13-1-2737691
+        type: ImageObject
+      interactions: []
+      subject:
+      - broader:
+          id: 
+        id: 31-1-4
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Asia
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-3.3
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: Muut
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-4.64
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Historia
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-4.65
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Muut asiateemat
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-148
+        id: 5-149
+        inScheme: areena-content-classification
+        key: dokumentit
+        title:
+          fi: Dokumentit
+          sv: "Dokument\xE4rer"
+        type: Concept
+      - broader:
+          id: 5-148
+        id: 5-150
+        inScheme: areena-content-classification
+        key: fakta
+        title:
+          fi: Fakta
+          sv: Fakta
+        type: Concept
+      - broader:
+          id: 5-148
+        id: 5-157
+        inScheme: areena-content-classification
+        key: historia
+        title:
+          fi: Historia
+          sv: Historia
+        type: Concept
+      - broader:
+          id: 
+        id: 5-260
+        inScheme: areena-analytics-classification
+        key: asiaohjelmat
+        title:
+          fi: Asiaohjelmat
+          sv: 
+        type: Concept
+      title:
+        fi: Muisti
+      type: TVSeries
+    publicationEvent:
+    - duration: PT30M
+      id: 4-7068048
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: tv-finland
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: tv-finland
+    - duration: PT30M
+      id: 4-6969437
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: PT30M
+      id: 4-7007261
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: tv-finland
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: tv-finland
+    - duration: PT30M
+      id: 4-6801072
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: PT30M
+      id: 4-6957347
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: tv-finland
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: tv-finland
+    - duration: PT30M
+      id: 4-6544211
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: PT27M43S
+      id: 4-6544212
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: P4W2DT3H58M45S
+      id: 4-6590206
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-1
+          type: ContentProtectionPolicy
+        downloadable: 0
+        duration: PT27M26S
+        id: 29-1_whyiwmbd
+        type: VideoObject
+      region: Finland
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher:
+      - id: yle-tv1
+    - duration: PT30M
+      id: 4-6550280
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: tv-finland
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: tv-finland
+    - duration: PT29M40S
+      id: 4-3095087
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: PT30M
+      id: 4-3093842
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    - duration: PT30M
+      id: 4-3092869
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: tv-finland
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: tv-finland
+    - duration: PT29M54S
+      id: 4-3092297
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: Finland
+      service:
+        id: yle-tv1
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher:
+      - id: yle-tv1
+    subject:
+    - broader:
+        id: 
+      id: 21-3
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Asiaohjelmat/lifestyle
+        sv: 
+        en: Factual/lifestyle
+      type: Concept
+      notation:
+      - value: 3.1
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-4
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Asia
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-2-4.9
+      inScheme: yle-content-format-classification
+      key: 
+      title:
+        fi: Asiareality
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-4.64
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Historia
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-148
+      id: 5-149
+      inScheme: areena-content-classification
+      key: dokumentit
+      title:
+        fi: Dokumentit
+        sv: "Dokument\xE4rer"
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-148
+      id: 5-150
+      inScheme: areena-content-classification
+      key: fakta
+      title:
+        fi: Fakta
+        sv: Fakta
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-148
+      id: 5-157
+      inScheme: areena-content-classification
+      key: historia
+      title:
+        fi: Historia
+        sv: Historia
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-260
+      inScheme: areena-analytics-classification
+      key: asiaohjelmat
+      title:
+        fi: Asiaohjelmat
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: 'Muisti: Uutinen Rissalasta'
+    type: TVProgram
+    typeCreative: Program
+    typeMedia: TVContent
+  - alternativeId: []
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - sv
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: 
+    duration: PT10M46S
+    id: 1-4191630
+    image:
+      available: 1
+      id: 13-1-4191630
+      type: ImageObject
+    itemTitle:
+      fi: 
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 1
+        id: 13-1-1911509-cover
+        type: ImageObject
+      description:
+        fi: 
+      id: 1-1911509
+      image:
+        available: 1
+        id: 13-1-1911509
+        type: ImageObject
+      interactions:
+      - title:
+          fi: "Yle Nyheter V\xE4stnyland (radionyheter)"
+        type: WebPage
+        url: http://arenan.yle.fi/radio/1941498
+      - title:
+          fi: "Mer fr\xE5n V\xE4stnyland p\xE5 svenska.yle.fi"
+        type: WebPage
+        url: http://svenska.yle.fi/vastnyland
+      subject:
+      - broader:
+          id: 
+        id: 31-1-1
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Uutiset
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-1.1
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: "Uutisbulletiini, uutisl\xE4hetys"
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-1.50
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Yleinen, useita aiheita
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-226
+        id: 5-227
+        inScheme: areena-content-classification
+        key: uutisohjelmat
+        title:
+          fi: Uutisohjelmat
+          sv: Nyhetsprogram
+        type: Concept
+      - broader:
+          id: 
+        id: 5-268
+        inScheme: areena-analytics-classification
+        key: uutiset
+        title:
+          fi: Uutiset
+          sv: 
+        type: Concept
+      title:
+        fi: "Radio Vega V\xE4stnyland"
+      type: RadioSeries
+    publicationEvent:
+    - duration: 
+      id: 4-7179752
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-0
+          type: ContentProtectionPolicy
+        downloadable: 1
+        duration: PT10M48S
+        id: 6-d8bf21d55bdc4b9da6e26eb5f5771d37
+        type: AudioObject
+      region: World
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 31-1-1
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Uutiset
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-2-1.1
+      inScheme: yle-content-format-classification
+      key: 
+      title:
+        fi: "Uutisbulletiini, uutisl\xE4hetys"
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-1.50
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Yleinen, useita aiheita
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-226
+      id: 5-227
+      inScheme: areena-content-classification
+      key: uutisohjelmat
+      title:
+        fi: Uutisohjelmat
+        sv: Nyhetsprogram
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-268
+      inScheme: areena-analytics-classification
+      key: uutiset
+      title:
+        fi: Uutiset
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: 
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  - alternativeId: []
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "Murrosik\xE4ist\xE4 nuorta ohjataan aikuisten maailmaan ripareilla ja prometheus-leireill\xE4.
+        Mist\xE4 nuoret ovat tulossa ja minne kasvattajat haluavat heit\xE4 ohjata?
+        Nuorista ja leireist\xE4 keskustelevat nuorisol\xE4\xE4k\xE4ri Miila Halonen,
+        Prometheus-leirien tuki ry:n varapuheenjohtaja Ansku Ahvenainen ja Kirkkohallituksen
+        kasvatus- ja perheasioiden asiantuntija Jarmo Kokkonen. \xC4\xE4neen p\xE4\xE4sev\xE4t
+        aikusitumisleirilt\xE4 my\xF6s nuoret itse. Toimittajina ovat Hanna Paavilainen
+        ja Samuli Suonp\xE4\xE4."
+    duration: PT43M6S
+    id: 1-3498821
+    image:
+      available: 1
+      id: 13-1-3498821
+      type: ImageObject
+    itemTitle:
+      fi: "\"Ei en\xE4\xE4 lapsi, ei viel\xE4 aikuinen\""
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 1
+        id: 13-1-1877444-cover
+        type: ImageObject
+      description:
+        fi: "Uskontojen ja kirkkojen ajankohtaisia kuulumisia eri puolilta maailmaa
+          sek\xE4 uskon ja el\xE4m\xE4nkatsomuksen pohdintaa. Yle Radio 1 sunnuntaisin
+          klo 12.15 - 13.00."
+      id: 1-1877444
+      image:
+        available: 1
+        id: 13-1-1877444
+        type: ImageObject
+      interactions:
+      - title:
+          fi: 'Yle Radio 1: Horisontti -sarjan sivut'
+        type: WebPage
+        url: http://yle.fi/radio1/asia/horisontti/
+      - title:
+          fi: "Horisontti Twitteriss\xE4"
+        type: WebPage
+        url: https://twitter.com/horisontti_yle1
+      subject:
+      - broader:
+          id: 
+        id: 31-1-4
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Asia
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-200
+        id: 5-218
+        inScheme: areena-content-classification
+        key: faktajakulttuuri
+        title:
+          fi: Fakta ja Kulttuuri
+          sv: Fakta och kultur
+        type: Concept
+      - broader:
+          id: 
+        id: 5-260
+        inScheme: areena-analytics-classification
+        key: asiaohjelmat
+        title:
+          fi: Asiaohjelmat
+          sv: 
+        type: Concept
+      title:
+        fi: Horisontti
+      type: RadioSeries
+    publicationEvent:
+    - duration: PT45M
+      id: 4-7048250
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-1
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher: []
+    - duration: 
+      id: 4-5765375
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-0
+          type: ContentProtectionPolicy
+        downloadable: 1
+        duration: PT43M12S
+        id: 6-a7c89ef050414ee1aa12a13aa6b24b42
+        type: AudioObject
+      region: World
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher:
+      - id: yle-radio-1
+    - duration: PT44M17S
+      id: 4-5765374
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-1
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 21-5
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Urheilu
+        sv: 
+        en: Sports
+      type: Concept
+      notation:
+      - value: 4
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-4
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Asia
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-4.58
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: "Filosofia, el\xE4m\xE4nkatsomus"
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-200
+      id: 5-218
+      inScheme: areena-content-classification
+      key: faktajakulttuuri
+      title:
+        fi: Fakta ja Kulttuuri
+        sv: Fakta och kultur
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-218
+      id: 5-225
+      inScheme: areena-content-classification
+      key: hartausohjelmat
+      title:
+        fi: Hartausohjelmat
+        sv: Andaktsprogram
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-260
+      inScheme: areena-analytics-classification
+      key: asiaohjelmat
+      title:
+        fi: Asiaohjelmat
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: "Horisontti: \"Ei en\xE4\xE4 lapsi, ei viel\xE4 aikuinen\""
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  - alternativeId: []
+    audio: []
+    collection: main
+    contentRating: {}
+    description:
+      fi: 7.20 Hei Haloo.
+    duration: PT18M
+    id: 1-4169700
+    image:
+      available: 0
+      id: 
+      type: 
+    itemTitle:
+      fi: Porin aamu
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 0
+        id: 
+        type: 
+      description:
+        fi: 
+      id: 
+      image:
+        available: 0
+        id: 
+        type: 
+      interactions: []
+      subject: []
+      title:
+        fi: 
+      type: 
+    publicationEvent:
+    - duration: PT18M
+      id: 4-7103482
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-pori
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 21-2
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Ajankohtaisohjelmat
+        sv: 
+        en: Current Affairs
+      type: Concept
+      notation:
+      - value: 2
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-2
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Ajankohtainen
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-1.50
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Yleinen, useita aiheita
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-200
+      id: 5-218
+      inScheme: areena-content-classification
+      key: faktajakulttuuri
+      title:
+        fi: Fakta ja Kulttuuri
+        sv: Fakta och kultur
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: Porin aamu
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  - alternativeId:
+    - 16-0-122887961
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "Haloo Helsinki julkaisi maaliskuussa kuudennen studioalbuminsa Hulluuden
+        Highway. Uusien kappaleiden esitt\xE4minen sis\xE4lt\xE4\xE4 Elli Haloon mukaan
+        yll\xE4tysmomentin. Haastattelussa Haloo Helsinki! -yhtyeen laulaja Elli Haloo
+        ja kitaristi Leo Hakanen."
+    duration: PT3M4S
+    id: 1-4180418
+    image:
+      available: 1
+      id: 13-1-4180418
+      type: ImageObject
+    itemTitle:
+      fi: "Haloo Helsinki! palasi Ruisrockiin tauon j\xE4lkeen"
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: "Ykk\xF6sfestarin kaikki parhaat keikat Ylell\xE4!"
+      coverImage:
+        available: 1
+        id: 13-1-3783514-cover
+        type: ImageObject
+      description:
+        fi: "Haloo Helsinki!, Teflon Brothers, Galantis, Alma, Reino Nordin ja Pete
+          Parkkonen sek\xE4 vuoden 2016 Ruisrockin keikkoja."
+      id: 1-3783514
+      image:
+        available: 1
+        id: 13-1-3783514
+        type: ImageObject
+      interactions: []
+      subject:
+      - broader:
+          id: 
+        id: 21-13
+        inScheme: finnpanel-genre-classification
+        key: 
+        title:
+          fi: Muut ohjelmat
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-1-7
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Musiikki
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-7.1
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: Konsertti (taltiointi tai juonnettu)
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-7.52
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Pop / rock
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-143
+        inScheme: areena-content-classification
+        key: musiikki
+        title:
+          fi: Musiikki
+          sv: Music
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-144
+        inScheme: areena-content-classification
+        key: poprockjazz
+        title:
+          fi: Pop, rock & jazz
+          sv: Pop, rock & jazz
+        type: Concept
+      - broader:
+          id: 5-139
+        id: 5-147
+        inScheme: areena-content-classification
+        key: konsertitjatapahtumat
+        title:
+          fi: Konsertit ja tapahtumat
+          sv: Konserter och evenemang
+        type: Concept
+      - broader:
+          id: 
+        id: 5-263
+        inScheme: areena-analytics-classification
+        key: kulttuuri
+        title:
+          fi: Kulttuuri
+          sv: 
+        type: Concept
+      title:
+        fi: Ruisrock
+      type: TVSeries
+    publicationEvent:
+    - duration: 
+      id: 4-7140032
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-0
+          type: ContentProtectionPolicy
+        downloadable: 0
+        duration: PT3M4S
+        id: 6-4f61a2c456a641128f7bee333a62d439
+        type: VideoObject
+      region: World
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher:
+      - id: yle-areena
+    subject:
+    - broader:
+        id: 
+      id: 31-1-7
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Musiikki
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-2-7.6
+      inScheme: yle-content-format-classification
+      key: 
+      title:
+        fi: Muu musiikkiohjelma
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-7.55
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Muut
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-139
+      id: 5-143
+      inScheme: areena-content-classification
+      key: musiikki
+      title:
+        fi: Musiikki
+        sv: Music
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-263
+      inScheme: areena-analytics-classification
+      key: kulttuuri
+      title:
+        fi: Kulttuuri
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: "Ruisrock: Haloo Helsinki! palasi Ruisrockiin tauon j\xE4lkeen"
+    type: TVClip
+    typeCreative: Clip
+    typeMedia: TVContent
+  - alternativeId: []
+    audio:
+    - format:
+      - inScheme: mediaformat-classification
+        key: stereo
+        type: Concept
+      language:
+      - fi
+      type: AudioTrack
+    collection: main
+    contentRating: {}
+    description:
+      fi: "1. PAVE MAIJANEN - Pid\xE4 huolta\r\n2. PHIL COLLINS - Another day in paradise\r\n3.
+        SKID ROW - 18 and life\r\n4. SPAGNA - I wanna be your wife\r\n5. JOHNNY LEE
+        MICHAELS - Kes\xE4tuuli\r\n6. HAIRCUT ONE HUNDRED - Love plus one\r\n7. EPPU
+        NORMAALI - N\xE4in kulutan aikaa\r\n8. ROBERT PLANT - Big log\r\n9. HALO JAMES
+        - Could have told you so\r\n10. SE - Varjot\r\n11. NITS - In the Dutch mountains\r\n12.
+        HEART - Alone\r\n13. OLIVIA NEWTON-JOHN - Physical"
+    duration: PT50M8S
+    id: 1-4164668
+    image:
+      available: 1
+      id: 13-1-4164668
+      type: ImageObject
+    itemTitle:
+      fi: "Y\xF6radio - Kasaritunti"
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 1
+        id: 13-1-1310892-cover
+        type: ImageObject
+      description:
+        fi: Tunti 80-luvun musiikkia.
+      id: 1-1310892
+      image:
+        available: 1
+        id: 13-1-1310892
+        type: ImageObject
+      interactions:
+      - title:
+          fi: 'SKS: Niin kasaria! Millaisia musiikkimuistoja sinulla on 1980-luvulta?'
+        type: WebPage
+        url: http://www.finlit.fi/fi/arkisto-ja-kirjastopalvelut/hankinta-ja-kokoelmapolitiikka/keruut/niin-kasaria#.VSz0l52UchB
+      - title:
+          fi: Pop & rock Yle Areenassa
+        type: WebPage
+        url: http://areena.yle.fi/radio/ohjelmat/30-248
+      subject:
+      - broader:
+          id: 
+        id: 31-1-7
+        inScheme: yle-content-main-classification
+        key: 
+        title:
+          fi: Musiikki
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-2-7.6
+        inScheme: yle-content-format-classification
+        key: 
+        title:
+          fi: Muu musiikkiohjelma
+          sv: 
+        type: Concept
+      - broader:
+          id: 
+        id: 31-3-7.55
+        inScheme: yle-content-topic-classification
+        key: 
+        title:
+          fi: Muut
+          sv: 
+        type: Concept
+      - broader:
+          id: 5-201
+        id: 5-202
+        inScheme: areena-content-classification
+        key: musiikki
+        title:
+          fi: Musiikki
+          sv: Musik
+        type: Concept
+      - broader:
+          id: 
+        id: 5-265
+        inScheme: areena-analytics-classification
+        key: musiikki
+        title:
+          fi: Musiikki
+          sv: 
+        type: Concept
+      title:
+        fi: "Y\xF6radion Kasaritunti"
+      type: RadioSeries
+    publicationEvent:
+    - duration: P4W2DT22H49M59S
+      id: 4-7086517
+      media:
+        available: 1
+        contentProtection:
+        - id: 22-0
+          type: ContentProtectionPolicy
+        downloadable: 0
+        duration: PT55M7S
+        id: 6-7c7aac301ff04388aba80b8ed580c78a
+        type: AudioObject
+      region: Finland
+      service:
+        id: yle-areena
+      temporalStatus: currently
+      type: OnDemandPublication
+      publisher:
+      - id: yle-radio-suomi
+    - duration: PT55M1S
+      id: 4-7087072
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087379
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-lappeenranta
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7086821
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-kemi
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7086921
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-rovaniemi
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7088377
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-kokkola
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7086518
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-joensuu
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087795
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-tampere
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7088278
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-pohjanmaa
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087485
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-lahti
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7088078
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-mikkeli
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087687
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-pori
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087178
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-turku
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7088477
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-kuopio
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087980
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-helsinki
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7088178
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-jyvaskyla
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087279
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-kotka
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    - duration: PT55M
+      id: 4-7087588
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-suomi-hameenlinna
+      temporalStatus: in-past
+      type: ScheduledTransmission
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 21-14
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Populaarikulttuuri
+        sv: 
+        en: Popular Culture
+      type: Concept
+      notation:
+      - value: 13
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-7
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Musiikki
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 31-3-7.52
+      inScheme: yle-content-topic-classification
+      key: 
+      title:
+        fi: Pop / rock
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-201
+      id: 5-202
+      inScheme: areena-content-classification
+      key: musiikki
+      title:
+        fi: Musiikki
+        sv: Musik
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-201
+      id: 5-205
+      inScheme: areena-content-classification
+      key: populaarimusiikki
+      title:
+        fi: Populaarimusiikki
+        sv: Popmusik
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 
+      id: 5-265
+      inScheme: areena-analytics-classification
+      key: musiikki
+      title:
+        fi: Musiikki
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: "Y\xF6radion Kasaritunti: Y\xF6radio - Kasaritunti"
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  - alternativeId: []
+    audio: []
+    collection: main
+    contentRating: {}
+    description:
+      fi: 
+    duration: PT1H30M
+    id: 1-4179788
+    image:
+      available: 0
+      id: 
+      type: 
+    itemTitle:
+      fi: 
+    partOfSeries:
+      Id: 
+      availabilityDescription:
+        fi: 
+      coverImage:
+        available: 0
+        id: 
+        type: 
+      description:
+        fi: 
+      id: 
+      image:
+        available: 0
+        id: 
+        type: 
+      interactions: []
+      subject: []
+      title:
+        fi: 
+      type: 
+    publicationEvent:
+    - duration: PT1H30M
+      id: 4-7138242
+      media:
+        available: 0
+        contentProtection: []
+        downloadable: 0
+        duration: 
+        id: 
+        type: 
+      region: World
+      service:
+        id: yle-radio-vega
+      temporalStatus: in-future
+      type: ScheduledTransmission
+      publisher: []
+    subject:
+    - broader:
+        id: 
+      id: 21-12
+      inScheme: finnpanel-genre-classification
+      key: 
+      title:
+        fi: Viihde/kevyt musiikki/reality
+        sv: 
+        en: Entertainment/light music/reality
+      type: Concept
+      notation:
+      - value: 10
+        valueType: finnpanel-notation
+    - broader:
+        id: 
+      id: 31-1-9
+      inScheme: yle-content-main-classification
+      key: 
+      title:
+        fi: Viihde
+        sv: 
+        en: 
+      type: Concept
+      notation: []
+    - broader:
+        id: 5-201
+      id: 5-203
+      inScheme: areena-content-classification
+      key: viihde
+      title:
+        fi: Viihde
+        sv: "Underh\xE5llning"
+        en: 
+      type: Concept
+      notation: []
+    title:
+      fi: 
+    type: RadioProgram
+    typeCreative: Program
+    typeMedia: RadioContent
+  contentPanel: {fileID: 0}
+  resultsPanel: {fileID: 0}
+  thumbnailPanel: {fileID: 0}
+  inputField: {fileID: 0}
+  searchButton: {fileID: 0}
+  titleButtonPrefab: {fileID: 114327593561187110, guid: a50da81f2cd8cd949bb9f5425f04b6ec,
+    type: 2}
+  scrollRect: {fileID: 0}
+  url: https://external.api.yle.fi/v1/programs/items.json
+  maxItemsPerChunk: 10
+  queryCooldown: 0.8
+  app_id: 0c64f10b
+  app_key: cafce5d6c5e822b8833cef6a1e9c1d42
+  thresholdScrollRectY: 0.1
