@@ -7,6 +7,11 @@ The objective is to work with some concepts:
 * **WebRequests** (from a webAPI)
 * Dinamic **scrollable lists** (in Unity UI)
 
+## Youtube Teaser
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HRKVRhoazTc
+" target="_blank"><img src="http://img.youtube.com/vi/HRKVRhoazTc/hqdefault.jpg" 
+width="240" height="180" border="10" /></a>
+
 ## The assignment
 
 The task is to search programs from the [Yle API](http://developer.yle.fi/tutorials.html)
