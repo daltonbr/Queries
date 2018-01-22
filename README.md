@@ -7,7 +7,7 @@ The objective is to work with some concepts:
 * **WebRequests** (from a webAPI)
 * Dinamic **scrollable lists** (in Unity UI)
 
-![Final Animation](./screenshots/queriesDemo.gig)  
+![Final Animation](./screenshots/queriesDemo.gif)  
 *Application flow*
 
 ## Youtube Teaser
