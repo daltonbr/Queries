@@ -7,9 +7,12 @@ The objective is to work with some concepts:
 * **WebRequests** (from a webAPI)
 * Dinamic **scrollable lists** (in Unity UI)
 
+![Final Animation](./screenshots/queriesDemo.gig)  
+*Application flow*
+
 ## Youtube Teaser
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=HRKVRhoazTc
-" target="_blank"><img src="http://img.youtube.com/vi/HRKVRhoazTc/hqdefault.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/HRKVRhoazTc/hqdefault.jpg"
 width="240" height="180" border="10" /></a>
 
 ## The assignment
@@ -21,9 +24,6 @@ The task is to search programs from the [Yle API](http://developer.yle.fi/tutori
 * When submitting a search, only the **first 10 results** should be retrieved from the API.
 * When the **user scrolls** to the last few items in the list, the next 10 results should be **appended** to the list.
 * Pressing on the row should display more details about the program. For this you can select any 5 revelant fields from the JSON.
-
-**IMPORTANT** You should request an *APP_ID* and a *APP_KEY* [HERE](https://tunnus.yle.fi/api-avaimet) (just google translate it, if you can't read finnish)
-(Then you can paste them in the UIManager script)
 
 ## Technologies to use
 
